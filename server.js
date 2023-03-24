@@ -9,6 +9,6 @@ app.get('/home', function(req, res) {
   res.send('hoooome');
 });
 
-app.listen("node-test-production-7782.up.railway.app", function() {
+app.listen("https://node-test-production-7782.up.railway.app", function() {
   console.log('Serverul ruleaza pe portul 5000!');
 });  
