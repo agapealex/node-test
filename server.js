@@ -9,6 +9,8 @@ app.get('/home', function(req, res) {
   res.send('hoooome');
 });
 
-app.listen("https://node-test-production-7782.up.railway.app", function() {
+const port = process.env.PORT || 5000;
+
+app.listen(port, function() {
   console.log('Serverul ruleaza pe portul 5000!');
 });  
