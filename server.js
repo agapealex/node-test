@@ -9,4 +9,4 @@ app.get('/home', function(req, res) {
 });
 app.listen(5000, function() {
   console.log('Serverul ruleaza pe portul 5000!');
-});
+});  
