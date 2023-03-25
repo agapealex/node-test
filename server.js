@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/home', function(req, res) {
-  res.send('hoooome');
+    res.json({ message: 'Hello, raspuns de pe backend!' });
 });
 
 const port = process.env.PORT || 5000;
