@@ -8,12 +8,13 @@ const app = express();
 app.use(cors()); 
 
 app.get('/', function(req, res) {
+    res.header('Access-Control-Allow-Origin', '*');
     res.json({ message: 'Heloooooo ' });
 
 });
 
 app.get('/home', function(req, res) {
-
+    res.header('Access-Control-Allow-Origin', '*');
     res.json({ message: 'Hello, raspuns de pe backend!' });
 });
 
