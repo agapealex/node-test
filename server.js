@@ -6,6 +6,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/home', function(req, res) {
+    console.log("este in  uta home")
     res.json({ message: 'Hello, raspuns de pe backend!' });
 });
 
