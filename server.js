@@ -8,11 +8,12 @@ const app = express();
 app.use(cors()); 
 
 app.get('/', function(req, res) {
-  res.send('Hello World!');
+    res.json({ message: 'Heloooooo ' });
+
 });
 
 app.get('/home', function(req, res) {
-    console.log("este in  uta home")
+
     res.json({ message: 'Hello, raspuns de pe backend!' });
 });
 
